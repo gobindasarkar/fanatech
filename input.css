@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+     body {
+          @apply font-Poppins text-Bcolor font-normal text-base
+     }
+     html {
+          -webkit-tap-highlight-color: transparent;
+     }
+
+     .bluare-box {
+          background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+          backdrop-filter: blur(6px);
+     }
+     .image-shadow {
+          filter: drop-shadow(0px 12.2182px 27.0545px rgba(0, 0, 0, 0.15));
+     }
+}
+
